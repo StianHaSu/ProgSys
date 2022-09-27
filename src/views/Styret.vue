@@ -25,7 +25,7 @@ import Header from "../components/Header.vue";
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Økonomiansvarlig</h3>
                 </div>
                 <div class="mx-auto w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Stian.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Stian-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Stian Sundkvist</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Arrangement <br> ansvarlig</h3>
                 </div>
