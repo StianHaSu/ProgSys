@@ -25,7 +25,7 @@
                     <p class="mx-8 text-lg fontFamily-JuliasFavoritt font-light">
                         18. semptember skal vi ha Sims-lan! Kom å møt oss for en snack,
                         spill og morro! :) <br>
-                        Jippi!
+                        Jippi! JA!
                     </p>
                 </div>
             </div>
