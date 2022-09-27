@@ -39,7 +39,7 @@ function showMenu (){
                 <ul class="flex space-x-6 font-mono text-2xl mr-8">
                     <li><button>Arrangement</button></li>
                     <li><button>Kontakt</button></li>
-                    <li><button>Styret</button></li>
+                    <li><button @click="$router.push({ name: 'styret' })">Styret</button></li>
                 </ul>
             </div>
             <div class="mobile">
@@ -50,9 +50,9 @@ function showMenu (){
     <div>
         <div id="menuId" class="menu">
             <ul class="space-y-5 font-mono text-2xl">
-                <li class="py-8 text-3xl font-bold"><button>ProgSys</button></li>
-                <li><button class="hover:underline">Arrangement</button></li>
-                <li><button class="hover:underline">Kontakt</button></li>
+                <li class="py-8 text-3xl font-bold"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
+                <li><button @click="$router.push({ name: 'arrangement' })" class="hover:underline">Arrangement</button></li>
+                <li><button @click="$router.push({ name: 'kontakt' })" class="hover:underline">Kontakt</button></li>
                 <li><button @click="$router.push({ name: 'styret' })" class="hover:underline">Styret</button></li>
             </ul>
         </div>
