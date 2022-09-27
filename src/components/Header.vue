@@ -5,7 +5,7 @@ function showMenu (){
     var show = document.getElementById("menuId");
     var outer = document.getElementById("bannerId");
 
-    if (show!.style.visibility === "hidden"){
+    if (show!.style.visibility != "visible"){
         outer!.style.backgroundColor = "rgb(249 115 22 / 70%)"
         
         banner!.style.visibility = "hidden"
