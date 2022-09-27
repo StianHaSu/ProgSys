@@ -20,7 +20,7 @@ import Header from "../components/Header.vue";
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Nestleder</h3>
                 </div>
                 <div class="mx-auto  w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Kjetil.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Kjetil-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Kjetil Omang</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Økonomiansvarlig</h3>
                 </div>
@@ -35,22 +35,22 @@ import Header from "../components/Header.vue";
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Teknisk ansvarlig</h3>
                 </div>
                 <div class="mx-auto  w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Marius.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Marius-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Marius</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Internansvarlig</h3>
                 </div>
                 <div class="mx-auto w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Peter.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Peter-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Peter</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Styremedlem</h3>
                 </div>
                 <div class="mx-auto w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Magnus.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Magnus-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Magnus</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Styremedlem</h3>
                 </div>
                 <div class="mx-auto w-[80%] rounded-sm ">
-                    <img class="rounded-md" src="../../public/Triera.jpg" alt="Bilde av Julia">
+                    <img class="rounded-md" src="../../public/Triera-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Triera</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Promoterings <br> ansvarlig</h3>
                 </div>
