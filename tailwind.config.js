@@ -9,6 +9,9 @@ module.exports = {
       colors:{
         'peach' : '#FFDAB9'
       },
+      font:{
+        'JuliasFavoritt' : ['"Open Sans"']
+      }
     },
   },
   plugins: [],

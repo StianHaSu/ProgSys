@@ -9,8 +9,6 @@ function showMenu (){
         outer!.style.backgroundColor = "rgb(249 115 22 / 70%)"
         
         banner!.style.visibility = "hidden"
-        outer!.style.borderBottomLeftRadius= "0px";
-        outer!.style.borderBottomRightRadius = "0px";
 
         show!.style.visibility = "visible";
         show!.style.display = "block";
@@ -18,9 +16,6 @@ function showMenu (){
 
     } else {
         outer!.style.backgroundColor = "rgb(255 218 185 / 80%)"
-
-        outer!.style.borderBottomLeftRadius= "12px";
-        outer!.style.borderBottomRightRadius = "12px";
 
         show!.style.visibility = "hidden";
         show!.style.display = "none";
@@ -34,11 +29,11 @@ function showMenu (){
 <template>
     <div id = "bannerId" class="header">
         <div id="normalBannerId" class="headerContent">
-            <div class="mt-[25px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><img class="ml-10" src="../../public/LogoPSys.png" alt="ProgSys logoen"></button></div>
+            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-bold text-[2rem] ml-8">ProgSys</h1></button></div>
             <div class="normal">
-                <ul class="flex space-x-6 font-mono text-2xl mr-8">
-                    <li><button>Arrangement</button></li>
-                    <li><button>Kontakt</button></li>
+                <ul class="flex space-x-6 fontFamily-JuliasFavoritt font-light text-2xl mr-20">
+                    <li><button @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
+                    <li><button @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
                     <li><button @click="$router.push({ name: 'styret' })">Styret</button></li>
                 </ul>
             </div>
@@ -51,9 +46,9 @@ function showMenu (){
         <div id="menuId" class="menu">
             <ul class="space-y-5 font-mono text-2xl">
                 <li class="py-8 text-3xl font-bold"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
-                <li><button @click="$router.push({ name: 'arrangement' })" class="hover:underline">Arrangement</button></li>
-                <li><button @click="$router.push({ name: 'kontakt' })" class="hover:underline">Kontakt</button></li>
-                <li><button @click="$router.push({ name: 'styret' })" class="hover:underline">Styret</button></li>
+                <li><button @click="$router.push({ name: 'arrangement' }), showMenu()" class="hover:underline">Arrangement</button></li>
+                <li><button @click="$router.push({ name: 'kontakt' }), showMenu()" class="hover:underline">Kontakt</button></li>
+                <li><button @click="$router.push({ name: 'styret' }), showMenu()" class="hover:underline">Styret</button></li>
             </ul>
         </div>
     </div>
@@ -67,10 +62,10 @@ function showMenu (){
 .header{
     @apply
     w-screen
-    h-[100px]
+    h-[70px]
     bg-peach
     bg-opacity-80
-    rounded-b-xl
+    
 }
 
 .headerContent{
@@ -81,7 +76,7 @@ function showMenu (){
 
 .normal{
     @apply
-    mt-[25px]
+    mt-[20px]
     text-center
 }
 
@@ -91,7 +86,7 @@ function showMenu (){
     rotate-[90deg]
     text-4xl
     mr-12
-    mt-[25px]
+    mt-[20px]
     font-semibold
 
 }
@@ -106,21 +101,15 @@ function showMenu (){
 }
 
 
-.rounded-b-xl {
-    border-bottom-right-radius: 0.75rem/* 12px */;
-    border-bottom-left-radius: 0.75rem/* 12px */;
-}
-
-.rounded-b-none {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
 @media only screen and (min-width: 1100px){
     .header{
         @apply
-        h-[120px]
-        
+        h-[90px]
+    }
+
+    .normal{
+        @apply
+        mt-[25px]
     }
 }
 
