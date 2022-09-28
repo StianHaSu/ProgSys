@@ -9,7 +9,7 @@ import Header from "../components/Header.vue";
         <div>
             <h1 class="text-center mt-5 text-3xl font-JuliasFavoritt font-medium mb-8 mx-6">ProgSys styret 2022-2023</h1>
             <div class="medlemmer">
-                <div class="mx-auto  w-[80%] rounded-sm">
+                <div class="mx-auto w-[80%] rounded-sm">
                     <img class="rounded-md" src="../../public/Julia-kopi.jpg" alt="Bilde av Julia">
                     <h3 class="text-start font-JuliasFavoritt font-medium">Julia Lundeby</h3>
                     <h3 class="text-start font-JuliasFavoritt text-gray-500">Leder</h3>

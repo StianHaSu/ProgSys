@@ -29,12 +29,12 @@ function showMenu (){
 <template>
     <div id = "bannerId" class="header">
         <div id="normalBannerId" class="headerContent">
-            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-bold text-[2rem] ml-8">ProgSys</h1></button></div>
+            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-bold text-[2rem] ml-8 hover:scale-105">ProgSys</h1></button></div>
             <div class="normal">
                 <ul class="flex space-x-6 fontFamily-JuliasFavoritt font-light text-2xl mr-20">
-                    <li><button @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
-                    <li><button @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
-                    <li><button @click="$router.push({ name: 'styret' })">Styret</button></li>
+                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
+                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
+                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'styret' })">Styret</button></li>
                 </ul>
             </div>
             <div class="mobile">
