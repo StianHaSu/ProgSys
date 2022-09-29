@@ -65,7 +65,7 @@ function showMenu (){
     h-[70px]
     bg-peach
     bg-opacity-80
-    
+    z-50
 }
 
 .headerContent{

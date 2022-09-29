@@ -4,8 +4,22 @@
 
 <template>
     <div class="footer">
-        <h3 class="text-white">E-post: progsys-styret@uio.no</h3>
-        <h3></h3>
+        <div>
+            <div class="mb-4">
+                <h3 class="font-JuliasFavoritt font-semibold flex justify-center text-center">E-post </h3>
+                <h3 class="font-JuliasFavoritt font-light flex justify-center text-center">progsys-styret@uio.no</h3>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex justify-between space-x-12">
+                    <div class="scale-[300%]">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="scale-[300%]">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -13,12 +27,10 @@
 
 .footer{
     @apply
-    bg-orange-400
-    bg-opacity-90
-    h-[80px]
+    -z-50
+    h-[100px]
     w-screen
-    bottom-0
-    fixed
+    
 }
 
 </style>

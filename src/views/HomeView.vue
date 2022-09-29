@@ -1,14 +1,17 @@
 <script setup lang="ts">
     import Header from "../components/Header.vue"
-import Footer from "../components/Footer.vue"
+    import Footer from "../components/Footer.vue"
 </script>
 <template>
-    <div>
-        <Header></Header>
+    <div class="min-h-[100vh]">
+        <div>
+            <Header></Header>
+        </div>
+        <div class="semester">
+            <img src="../../public/Semesterplan.png" alt="Semesterplan">
+        </div>
     </div>
-    <div class="semester">
-        <img src="../../public/Semesterplan.png" alt="Semesterplan">
-    </div>
+    <Footer></Footer>
 </template>
 <style>
 
