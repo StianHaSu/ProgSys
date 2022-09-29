@@ -18,6 +18,7 @@
 .semester{
     @apply
     scale-75
+    flex justify-center
 }
 
 </style>

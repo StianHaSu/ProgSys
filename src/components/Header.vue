@@ -15,7 +15,7 @@ function showMenu (){
         show!.style.height = "100vh";
 
     } else {
-        outer!.style.backgroundColor = "rgb(255 218 185 / 80%)"
+        outer!.style.backgroundColor = "rgb(255 218 185 / 5%)"
 
         show!.style.visibility = "hidden";
         show!.style.display = "none";
@@ -29,12 +29,12 @@ function showMenu (){
 <template>
     <div id = "bannerId" class="header">
         <div id="normalBannerId" class="headerContent">
-            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-bold text-[2rem] ml-8 hover:scale-105">ProgSys</h1></button></div>
+            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-light font-['Open Sans'] text-[2.2rem] ml-8">ProgSys</h1></button></div>
             <div class="normal">
                 <ul class="flex space-x-6 fontFamily-JuliasFavoritt font-light text-2xl mr-20">
-                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
-                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
-                    <li><button class="hover:underline hover:scale-105" @click="$router.push({ name: 'styret' })">Styret</button></li>
+                    <li><button @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
+                    <li><button @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
+                    <li><button @click="$router.push({ name: 'styret' })">Styret</button></li>
                 </ul>
             </div>
             <div class="mobile">
@@ -45,7 +45,7 @@ function showMenu (){
     <div>
         <div id="menuId" class="menu">
             <ul class="space-y-5 font-mono text-2xl">
-                <li class="py-8 text-3xl font-bold"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
+                <li class="py-8 text-3xl font-JuliasFavoritt font['Open Sans']"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
                 <li><button @click="$router.push({ name: 'arrangement' }), showMenu()" class="hover:underline">Arrangement</button></li>
                 <li><button @click="$router.push({ name: 'kontakt' }), showMenu()" class="hover:underline">Kontakt</button></li>
                 <li><button @click="$router.push({ name: 'styret' }), showMenu()" class="hover:underline">Styret</button></li>
@@ -63,9 +63,6 @@ function showMenu (){
     @apply
     w-screen
     h-[70px]
-    bg-peach
-    bg-opacity-80
-    z-50
 }
 
 .headerContent{
@@ -87,7 +84,7 @@ function showMenu (){
     text-4xl
     mr-12
     mt-[20px]
-    font-semibold
+    font-light
 
 }
 
