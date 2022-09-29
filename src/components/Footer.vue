@@ -16,10 +16,10 @@ export default{
             <div class="flex justify-center">
                 <div class="flex justify-between space-x-12">
                     <div class="scale-[300%]">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/ifiprogsys/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>
                     <div class="scale-[300%]">
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/ifiprogsys" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
