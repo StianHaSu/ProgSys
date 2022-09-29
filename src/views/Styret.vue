@@ -8,7 +8,8 @@ import Footer from "../components/Footer.vue";
     <div class="min-h-[100vh]">
         <div><Header></Header></div>
         <div>
-            <h1 class="text-center mt-5 text-3xl font-JuliasFavoritt font-medium mb-8 mx-6">ProgSys styret 2022-2023</h1>
+            <h1 class="text-center mt-5 text-3xl font-JuliasFavoritt font-medium mx-6">ProgSys styret 2022-2023</h1>
+            <i class="fa fa-users mt-6 flex justify-center scale-[2]" aria-hidden="true"></i>
             <div class="medlemmer">
                 <div class="mx-auto w-[80%] rounded-sm">
                     <img class="rounded-md" src="../../public/Julia-kopi.jpg" alt="Bilde av Julia">
@@ -65,7 +66,7 @@ import Footer from "../components/Footer.vue";
 <style>
 .medlemmer{
     @apply
-    mt-6
+    mt-11
     grid grid-rows-5
     grid-cols-2
     grid-flow-row-dense

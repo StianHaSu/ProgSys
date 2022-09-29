@@ -34,6 +34,7 @@ export default{
     -z-50
     h-[100px]
     w-screen
+    mb-8
     
 }
 

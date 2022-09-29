@@ -29,7 +29,7 @@ function showMenu (){
 <template>
     <div id = "bannerId" class="header">
         <div id="normalBannerId" class="headerContent">
-            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-light font-['Open Sans'] text-[2.2rem] ml-8">ProgSys</h1></button></div>
+            <div class="mt-[15px] inline-block align-middle"><button @click="$router.push({name: 'home'})"><h1 class="font-light font-['Open Sans'] text-[2.2rem] ml-8 ">ProgSys</h1></button></div>
             <div class="normal">
                 <ul class="flex space-x-6 fontFamily-JuliasFavoritt font-light text-2xl mr-20">
                     <li><button @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
