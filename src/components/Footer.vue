@@ -1,7 +1,7 @@
 <script lang="ts">
 export default{
-    data :{
-        
+    data (){
+        return{}
     },
 }
 </script>
