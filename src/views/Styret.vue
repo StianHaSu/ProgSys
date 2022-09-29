@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 
 </script>
 
 <template>
-    <div>
+    <div class="min-h-[100vh]">
         <div><Header></Header></div>
         <div>
             <h1 class="text-center mt-5 text-3xl font-JuliasFavoritt font-medium mb-8 mx-6">ProgSys styret 2022-2023</h1>
@@ -58,6 +59,7 @@ import Header from "../components/Header.vue";
             </div>
         </div>
     </div>
+    <Footer></Footer>
 </template>
 
 <style>

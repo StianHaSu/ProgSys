@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
     
 </script>
 
@@ -10,7 +11,7 @@
     <div class="wrapper">
         <div class="firstArr">
             <div class="picture1"><img class="rounded-md" src="@/assets/baalTur.png" alt=""></div>
-            <div class="bg-gray-200 bg-opacity-25 py-3 max-w-[600px] mx-auto">
+            <div class="py-3 max-w-[600px] mx-auto">
                 <p class="mx-8 text-lg fontFamily-JuliasFavoritt font-light">
                     Fredag 30. september tar vi turen opp til Sognsvann for en koselig 
                     båltur. Bli med oss for en hyggelig og uformell opplevelse!
@@ -20,7 +21,7 @@
         <div class="secondArr">
             <div class="picture2"><img class="rounded-md" src="@/assets/Sims.png" alt=""></div>
             <div class="">
-                <div class="bg-gray-200 bg-opacity-25 py-3 max-w-[600px] mx-auto">   
+                <div class="py-3 max-w-[600px] mx-auto">   
                     <p class="mx-8 text-lg fontFamily-JuliasFavoritt font-light">
                         18. semptember skal vi ha Sims-lan! Kom å møt oss for en snack,
                         spill og morro! :) <br>
@@ -30,6 +31,7 @@
             </div>
         </div>
     </div>
+    <Footer></Footer>
 </template>
 
 <style>
