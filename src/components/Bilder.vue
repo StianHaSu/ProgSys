@@ -14,7 +14,7 @@ export default{
     },
 
     methods: {
-        async changePicture(dir: number){
+        async changePicture(dir){
             var b = document.getElementById("bilde");
             b.style.opacity = "0";
 
