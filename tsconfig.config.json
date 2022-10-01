@@ -5,8 +5,5 @@
   "compilerOptions": {
     "composite": true,
     "types": ["node"],
-    "target": "es5",
-    "sourceMap": true,
-    "allowJS": true
   }
 }
