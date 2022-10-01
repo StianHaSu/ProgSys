@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
 const bilde1 = new URL('../assets/Sims.png', import.meta.url).href;
 const bilde2 = new URL('../assets/baalTur.png', import.meta.url).href;
 const bilde3 = new URL('../assets/Bowling.png', import.meta.url).href;
@@ -8,7 +8,7 @@ export default{
         return {
             array: [bilde1, bilde2, bilde3],
             bilde: bilde1,
-            counter: 0,
+            counter:  0,
             pressed: false,
         }
     },
