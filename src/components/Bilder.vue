@@ -12,8 +12,9 @@ export default{
             pressed: false,
         }
     },
+
     methods: {
-        async changePicture(dir){
+        async changePicture(dir: number){
             var b = document.getElementById("bilde");
             b.style.opacity = "0";
 
