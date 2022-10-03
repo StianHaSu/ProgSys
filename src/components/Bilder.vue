@@ -77,6 +77,7 @@ export default{
 .b{ 
     transition-duration: 500ms;
     @apply
+    
     transition-opacity
     w-[350px] h-[350px]
     
