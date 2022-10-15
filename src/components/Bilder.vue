@@ -58,13 +58,13 @@ export default{
         <img id="bilde" class="b" :src="bilde" alt="">
     </div>
     <div class="space-x-4 mt-2 flex justify-center text-4xl ">
-        <button class="" @click="changePicture(-1), this.pressed=true">
-            <div class="border border-black shadow shadow-black">
+        <button class="shadow shadow-black" @click="changePicture(-1), this.pressed=true">
+            <div class="border border-black" >
                 <i class="fa fa-long-arrow-left mx-16" aria-hidden="true"></i>
             </div>
         </button>
-        <button class="" @click="changePicture(1), this.pressed=true">
-            <div class="border border-black shadow shadow-black">
+        <button class="shadow shadow-black" @click="changePicture(1), this.pressed=true">
+            <div class="border border-black">
                 <i class="fa fa-long-arrow-right mx-16" aria-hidden="true"></i>
             </div>
         </button>
@@ -77,6 +77,7 @@ export default{
 .b{ 
     transition-duration: 500ms;
     @apply
+    
     transition-opacity
     w-[350px] h-[350px]
     
