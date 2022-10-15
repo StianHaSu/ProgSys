@@ -4,6 +4,11 @@ function showMenu (){
     var banner = document.getElementById("normalBannerId");
     var show = document.getElementById("menuId");
     var outer = document.getElementById("bannerId");
+    
+    var burger = document.getElementById("burger");
+    var b1 = document.getElementById("burger1");
+    var b2 = document.getElementById("burger2");
+    var b3 = document.getElementById("burger3");
 
     if (show!.style.visibility != "visible"){
         outer!.style.backgroundColor = "rgb(249 115 22 / 70%)"
@@ -14,6 +19,22 @@ function showMenu (){
         show!.style.display = "block";
         show!.style.height = "100vh";
 
+        b2!.style.opacity ="0%";
+        b2!.style.visibility ="hidden";
+
+        b3!.innerHTML = "|";
+        
+
+        b1!.style.position = "absolute";
+        b3!.style.position = "absolute";
+
+        b3!.style.marginLeft = "5px";
+
+        b1!.style.rotate = "-45deg";
+        b3!.style.rotate = "45deg";
+
+        
+
     } else {
         outer!.style.backgroundColor = "rgb(255 218 185 / 5%)"
 
@@ -22,6 +43,20 @@ function showMenu (){
         show!.style.height = "0vh";
 
         banner!.style.visibility = "visible"
+        b2!.style.opacity ="100%";
+
+        b1!.style.rotate = "0deg";
+        b3!.style.rotate = "0deg";
+
+        b3!.innerHTML = "|";
+
+        b3!.style.marginLeft = "0px";
+        
+        b1!.style.position = "relative";
+        b3!.style.position = "relative";
+        b2!.style.visibility ="visible";
+
+        
     }
     
 }
@@ -38,7 +73,13 @@ function showMenu (){
                 </ul>
             </div>
             <div class="mobile">
-                <button @click="showMenu()"><h1>|||</h1></button>
+                <button @click="showMenu()">
+                    <div id="burger" class="burgeren">
+                        <div id="burger1" class="text-center"><h1>|</h1></div>
+                        <div id="burger2" class="text-center"><h1>|</h1></div>
+                        <div id="burger3" class="text-center"><h1>|</h1></div>
+                    </div>
+                </button>
             </div>
         </div>
     </div>
@@ -59,6 +100,11 @@ function showMenu (){
 @tailwind components;
 @tailwind utilities;
 
+.burgeren{
+    @apply
+    flex justify-between
+}
+
 .header{
     @apply
     w-screen
@@ -77,6 +123,25 @@ function showMenu (){
     text-center
 }
 
+#burger1{
+    @apply
+    transition-[rotate]
+    duration-300
+    
+}
+
+#burger2{
+    @apply
+    transition-[opacity]
+    duration-[1s]
+}
+
+#burger3{
+    @apply
+    transition-[rotate]
+    duration-300
+}
+
 .mobile{
     @apply
     hidden
@@ -87,6 +152,14 @@ function showMenu (){
     font-light
 
 }
+
+#menuId{
+    @apply
+    animate-[height] 
+    duration-300
+
+}
+
 
 .menu{
     @apply
