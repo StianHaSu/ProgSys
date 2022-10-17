@@ -18,7 +18,7 @@ export default{
             var b = document.getElementById("bilde");
             b.style.opacity = "0";
 
-            await new Promise(r => setTimeout(r, 500));
+            await new Promise(r => setTimeout(r, 300));
 
             console.log(this.counter);
             this.counter += dir
