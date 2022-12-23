@@ -68,7 +68,7 @@ function showMenu (){
             <div class="normal">
                 <ul class="flex space-x-6 fontFamily-JuliasFavoritt font-light text-2xl mr-20">
                     <li><button @click="$router.push({ name: 'arrangement' })">Arrangement</button></li>
-                    <li><button @click="$router.push({ name: 'kontakt' })">Kontakt</button></li>
+                    <li><button @click="$router.push({ name: 'samarbeidspartner' })">Samarbeidspartner</button></li>
                     <li><button @click="$router.push({ name: 'styret' })">Styret</button></li>
                 </ul>
             </div>
@@ -88,7 +88,7 @@ function showMenu (){
             <ul class="space-y-5 font-mono text-2xl">
                 <li class="py-8 text-3xl font-JuliasFavoritt font['Open Sans']"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
                 <li><button @click="$router.push({ name: 'arrangement' }), showMenu()" class="hover:underline">Arrangement</button></li>
-                <li><button @click="$router.push({ name: 'kontakt' }), showMenu()" class="hover:underline">Kontakt</button></li>
+                <li><button @click="$router.push({ name: 'samarbeidspartner' }), showMenu()" class="hover:underline">Samarbeidspartner</button></li>
                 <li><button @click="$router.push({ name: 'styret' }), showMenu()" class="hover:underline">Styret</button></li>
             </ul>
         </div>

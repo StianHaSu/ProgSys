@@ -11,7 +11,7 @@ import Bilder from "../components/Bilder.vue";
             <Header></Header>
         </div>
 
-        <div><h1 class="text-3xl font-light underline flex justify-center mt-8">Kommende arrangementer</h1></div>
+        <div><h1 class="text-3xl font-light flex justify-center mt-8">Kommende arrangementer</h1></div>
         <div class="flex justify-center">
             <div class="kommende">
                 <div class="kommendeBilder">
@@ -21,26 +21,38 @@ import Bilder from "../components/Bilder.vue";
         </div>
 
         <div class="flex justify-center mt-16 text-center">
-            <h1 class="text-3xl font-light underline">Bilder fra tidligere arrangement</h1>
+            <h1 class="text-3xl font-sans ">Bilder fra tidligere arrangement</h1>
         </div>
         <div class="wrapper">
             <div class="element">
                 <div class="picture"><img class="rounded-sm" src="@/assets/sims-real.jpg" alt=""></div>
                 <div class="beskrivelse">   
-                    <p class="mx-8 text-lg fontFamily-JuliasFavoritt font-light">
-                        18. semptember skal vi ha Sims-lan! Kom å møt oss for en snack,
-                        spill og morro! :) <br>
-                        Jippi! JA!
+                    <p class="bildeTekst">
+                        Simslan, H22
                     </p>
                 </div>
             </div>
             <div class="element">
                 <div class="picture"><img class="rounded-sm" src="@/assets/telttur-real.jpg" alt=""></div>
                 <div class="beskrivelse">   
-                    <p class="mx-8 text-lg fontFamily-JuliasFavoritt font-light">
-                        18. semptember skal vi ha Sims-lan! Kom å møt oss for en snack,
-                        spill og morro! :) <br>
-                        Jippi! JA!
+                    <p class="bildeTekst">
+                        Telttur, H22
+                    </p>
+                </div>
+            </div>
+            <div class="element">
+                <div class="picture"><img class="rounded-sm" src="@/assets/hyttetur.jpg" alt=""></div>
+                <div class="beskrivelse">   
+                    <p class="bildeTekst">
+                        Hyttetur, H22
+                    </p>
+                </div>
+            </div>
+            <div class="element">
+                <div class="picture"><img class="rounded-sm" src="@/assets/test.jpg" alt=""></div>
+                <div class="beskrivelse">   
+                    <p class="bildeTekst">
+                        Hyttetur, H22
                     </p>
                 </div>
             </div>
@@ -49,11 +61,22 @@ import Bilder from "../components/Bilder.vue";
     <Footer></Footer>
 </template>
 
-<style>
+<style scoped>
+
+.elememt{
+    @apply
+    max-w-[350px]
+    max-h-[100px]
+}
 
 .kommende{
     @apply
     mt-6
+}
+
+.bildeTekst {
+    @apply
+    mx-2 text-lg font-light
 }
 
 .kommendeBilder{
@@ -83,7 +106,7 @@ import Bilder from "../components/Bilder.vue";
 }
 
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 800px){
     .wrapper{
         @apply
         grid grid-cols-2
@@ -97,11 +120,26 @@ import Bilder from "../components/Bilder.vue";
     
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1150px){
     .wrapper{
         @apply
         grid-cols-3
     }
 }
+
+@media only screen and (min-width: 1700px){
+    .wrapper{
+        @apply
+        grid-cols-4
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    .wrapper{
+        margin-left: calc((100vw - 1700px)/2);
+        margin-right: calc((100vw - 1700px)/2);
+    }
+}
+
     
 </style>

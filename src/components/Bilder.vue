@@ -16,7 +16,7 @@ export default{
     methods: {
         async changePicture(dir){
             var b = document.getElementById("bilde");
-            b.style.opacity = "0";
+            b.style.opacity = "0%";
 
             await new Promise(r => setTimeout(r, 300));
 
@@ -31,21 +31,10 @@ export default{
 
             this.bilde = this.array[this.counter];
 
-            b.style.opacity = "1";
+            b.style.opacity = "100%";
 
         },
 
-
-        async autoChange(){
-            while (!this.pressed){
-                await new Promise(r => setTimeout(r, 6000));
-                if (!this.pressed) this.changePicture(1);
-            }
-        },
-    },
-
-    beforeMount(){
-        this.autoChange()
     },
 }
 

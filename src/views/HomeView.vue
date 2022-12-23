@@ -25,34 +25,34 @@
             <div class="semester">
                 <div class="maaned">
                     <div class="text-center space-y-8">
-                        <h1 class="text-2xl mt-6 underline">September</h1>
-                        <h1>Telttur</h1>
-                        <h1>Karaoke</h1>
-                        <h1>Sims-LAN</h1>
+                        <h1 class="text-2xl mt-6 underline">Januar</h1>
+                        <h1>*******</h1>
+                        <h1>KOMMER</h1>
+                        <h1>*******</h1>
                     </div>
                 </div>
                 <div class="maaned">
                     <div class="text-center space-y-8">
-                        <h1 class="text-2xl mt-6 underline">Oktober</h1>
-                        <h1>Telttur</h1>
-                        <h1>Karaoke</h1>
-                        <h1>Sims-LAN</h1>
+                        <h1 class="text-2xl mt-6 underline">Februar</h1>
+                        <h1>*******</h1>
+                        <h1>KOMMER</h1>
+                        <h1>*******</h1>
                     </div>
                 </div>
                 <div class="maaned">
                     <div class="text-center space-y-8">
-                        <h1 class="text-2xl mt-6 underline">November</h1>
-                        <h1>Telttur</h1>
-                        <h1>Karaoke</h1>
-                        <h1>Sims-LAN</h1>
+                        <h1 class="text-2xl mt-6 underline">Mars</h1>
+                        <h1>*******</h1>
+                        <h1>KOMMER</h1>
+                        <h1>*******</h1>
                     </div>
                 </div>
                 <div class="maaned">
                     <div class="text-center space-y-8">
-                        <h1 class="text-2xl mt-6 underline">Desember</h1>
-                        <h1>Telttur</h1>
-                        <h1>Karaoke</h1>
-                        <h1>Sims-LAN</h1>
+                        <h1 class="text-2xl mt-6 underline">April</h1>
+                        <h1>*******</h1>
+                        <h1>KOMMER</h1>
+                        <h1>*******</h1>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
     </div>
     <Footer></Footer>
 </template>
-<style>
+<style scoped>
 
 .semester{
     @apply

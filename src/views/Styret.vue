@@ -63,7 +63,7 @@ import Footer from "../components/Footer.vue";
     <Footer></Footer>
 </template>
 
-<style>
+<style scoped>
 .medlemmer{
     @apply
     mt-11

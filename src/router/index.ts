@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Styret from '../views/Styret.vue'
 import Arrangement from '../views/Arrangement.vue'
-import Kontakt from '../views/Kontakt.vue'
+import Samarbeidspartner from '../views/Samarbeidspartner.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,9 +23,9 @@ const router = createRouter({
       component: Arrangement
     },
     {
-      path: '/kontakt',
-      name: 'kontakt',
-      component: Kontakt
+      path: '/samarbeidspartner',
+      name: 'samarbeidspartner',
+      component: Samarbeidspartner
     }
   ]
 })
