@@ -45,17 +45,17 @@ import Footer from "../components/Footer.vue"
                     </div>
                 </div>
                 <div class="jobs">
-                    <div class="flex justify-center">
+                    <div class="flex justify-center mt-2">
                         <i class="fa fa-briefcase text-3xl" aria-hidden="true"></i>
                     </div>
                     <div class="flex justify-center mt-2">
-                        <div class="border-2 border-slate-900 rounded-full max-w-[300px] hover:bg-emerald-500 hover:text-white">
-                            <a href="https://jobb.dnb.no/go/Studenter-og-Nyutdannede/4224101/" target="_blank">
-                                <h3 class="text-xl font-semibold my-2 mx-2 text-center">
-                                    Sjekk ut ledige stillinger <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
-                                </h3>
-                            </a>
-                        </div>
+                        <a href="https://jobb.dnb.no/go/Studenter-og-Nyutdannede/4224101/" target="_blank">
+                            <div class="border-2 border-slate-900 rounded-full max-w-[300px] hover:bg-emerald-500 hover:text-white">
+                                    <h3 class="text-xl font-semibold my-2 mx-2 text-center">
+                                        Sjekk ut ledige stillinger <i class="fa fa-external-link ml-1" aria-hidden="true"></i>
+                                    </h3>
+                            </div>
+                        </a>
                     </div>
                     <div class="flex justify-center mt-16">
                         <p>
@@ -133,10 +133,6 @@ import Footer from "../components/Footer.vue"
     px-5 py-5
     rounded-md
     max-w-[1050px] 
-    shadow-sm 
-    shadow-black 
-    drop-shadow-md 
-    border-zinc-900 border-2
 }
 .rammeWrapper {
     @apply
@@ -214,7 +210,7 @@ import Footer from "../components/Footer.vue"
         @apply
         mr-auto
         rounded-sm
-        max-h-[350px]
+        max-h-[300px]
     }
 }
 

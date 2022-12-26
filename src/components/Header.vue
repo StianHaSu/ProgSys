@@ -85,7 +85,7 @@ function showMenu (){
     </div>
     <div>
         <div id="menuId" class="menu">
-            <ul class="space-y-5 font-mono text-2xl">
+            <ul class="space-y-12 font-mono text-2xl">
                 <li class="py-8 text-3xl font-JuliasFavoritt font['Open Sans']"><button @click="$router.push({ name: 'home' })">ProgSys</button></li>
                 <li><button @click="$router.push({ name: 'arrangement' }), showMenu()" class="hover:underline">Arrangement</button></li>
                 <li><button @click="$router.push({ name: 'samarbeidspartner' }), showMenu()" class="hover:underline">Samarbeidspartner</button></li>

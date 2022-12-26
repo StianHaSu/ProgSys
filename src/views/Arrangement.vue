@@ -11,7 +11,7 @@ import Bilder from "../components/Bilder.vue";
             <Header></Header>
         </div>
 
-        <div><h1 class="text-3xl font-light flex justify-center mt-8">Kommende arrangementer</h1></div>
+        <div><h1 class="text-3xl font-sans flex justify-center mt-8">Kommende arrangementer</h1></div>
         <div class="flex justify-center">
             <div class="kommende">
                 <div class="kommendeBilder">
@@ -19,41 +19,42 @@ import Bilder from "../components/Bilder.vue";
                 </div>
             </div>
         </div>
-
-        <div class="flex justify-center mt-16 text-center">
-            <h1 class="text-3xl font-sans ">Bilder fra tidligere arrangement</h1>
-        </div>
-        <div class="wrapper">
-            <div class="element">
-                <div class="picture"><img class="rounded-sm" src="@/assets/sims-real.jpg" alt=""></div>
-                <div class="beskrivelse">   
-                    <p class="bildeTekst">
-                        Simslan, H22
-                    </p>
-                </div>
+        <div class="border-t-4 border-slate-900 border-dotted mt-8">
+            <div class="flex justify-center mt-8 text-center">
+                <h1 class="text-3xl font-sans ">Bilder fra tidligere arrangement</h1>
             </div>
-            <div class="element">
-                <div class="picture"><img class="rounded-sm" src="@/assets/telttur-real.jpg" alt=""></div>
-                <div class="beskrivelse">   
-                    <p class="bildeTekst">
-                        Telttur, H22
-                    </p>
+            <div class="wrapper">
+                <div class="element">
+                    <div class="picture"><img class="rounded-sm" src="@/assets/sims-real.jpg" alt=""></div>
+                    <div class="beskrivelse">   
+                        <p class="bildeTekst">
+                            Simslan, H22
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="element">
-                <div class="picture"><img class="rounded-sm" src="@/assets/hyttetur.jpg" alt=""></div>
-                <div class="beskrivelse">   
-                    <p class="bildeTekst">
-                        Hyttetur, H22
-                    </p>
+                <div class="element">
+                    <div class="picture"><img class="rounded-sm" src="@/assets/telttur-real.jpg" alt=""></div>
+                    <div class="beskrivelse">   
+                        <p class="bildeTekst">
+                            Telttur, H22
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="element">
-                <div class="picture"><img class="rounded-sm" src="@/assets/test.jpg" alt=""></div>
-                <div class="beskrivelse">   
-                    <p class="bildeTekst">
-                        Hyttetur, H22
-                    </p>
+                <div class="element">
+                    <div class="picture"><img class="rounded-sm" src="@/assets/hyttetur.jpg" alt=""></div>
+                    <div class="beskrivelse">   
+                        <p class="bildeTekst">
+                            Hyttetur, H22
+                        </p>
+                    </div>
+                </div>
+                <div class="element">
+                    <div class="picture"><img class="rounded-sm" src="@/assets/test.jpg" alt=""></div>
+                    <div class="beskrivelse">   
+                        <p class="bildeTekst">
+                            Hyttetur, H22
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
